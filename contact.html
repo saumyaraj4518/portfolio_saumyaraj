@@ -6,43 +6,49 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-    <h1>Saumyaraj Singh Panwar</h1>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-</header>
-<main>
-    <h2>Reach Out</h2>
-    <form action="https://httpbin.org/get" method="get">
-        <fieldset>
-            <legend>Reach Out</legend>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required><br><br>
+    <!-- Header with Navigation -->
+    <header>
+        <h1>Saumyaraj Singh Panwar</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" placeholder="name@example.com"><br><br>
+    <!-- Main Contact Form -->
+    <main>
+        <h2>Reach Out</h2>
+        <form action="https://httpbin.org/get" method="get">
+            <fieldset>
+                <legend>Reach Out</legend>
 
-            <label for="topic">Topic:</label>
-            <select id="topic" name="topic">
-                <option value="Hiring">Hiring</option>
-                <option value="Collaboration">Collaboration</option>
-                <option value="General">General</option>
-            </select><br><br>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
 
-            <label for="message">Message:</label><br>
-            <textarea id="message" name="message" rows="4" cols="30"></textarea><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="name@example.com"><br><br>
 
-            <button type="submit">Send</button>
-        </fieldset>
-    </form>
-</main>
-<footer>
-    &copy; 2026 Saumyaraj Singh Panwar
-</footer>
+                <label for="topic">Topic:</label><br>
+                <select id="topic" name="topic">
+                    <option value="Hiring">Hiring</option>
+                    <option value="Collaboration">Collaboration</option>
+                    <option value="General">General</option>
+                </select><br><br>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" cols="30"></textarea><br><br>
+
+                <button type="submit">Send</button>
+            </fieldset>
+        </form>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2026 Saumyaraj Singh Panwar
+    </footer>
 </body>
 </html>
